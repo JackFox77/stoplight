@@ -3,6 +3,9 @@
   --amber-light: yellow;
   --green-light: green;
   --body: black;
+  --sky: rgb(0, 162, 255);
+  --ground: rgb(23, 79, 23);
+  --road: rgb(48, 44, 44);
 }
 
 .d-flex {
@@ -75,4 +78,23 @@
 .botlight:hover {
   box-shadow: 0px 0px 26px green;
   outline: 1px rgb(134, 255, 136);
+}
+
+.ground {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: var(--ground);
+  height: 150px;
+}
+.sky {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: var(--sky);
+  height: 600px;
+}
+
+.road {
+  min-height: 100%;
+  min-width: 25%;
+  background-color: var(--road);
 }
