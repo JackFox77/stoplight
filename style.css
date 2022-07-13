@@ -58,3 +58,21 @@
 .lightdir {
   flex-direction: column;
 }
+
+.flexspread {
+  justify-content: space-evenly;
+}
+
+.toplight:hover {
+  box-shadow: 0px 0px 26px red;
+  outline: 1px rgb(255, 109, 109);
+}
+.midlight:hover {
+  box-shadow: 0px 0px 26px yellow;
+  outline: 1px rgb(255, 255, 134);
+}
+
+.botlight:hover {
+  box-shadow: 0px 0px 26px green;
+  outline: 1px rgb(134, 255, 136);
+}
