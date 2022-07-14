@@ -70,7 +70,7 @@
 }
 
 .toplight:hover {
-  box-shadow: 0px 0px 26px red;
+  box-shadow: 0px 0px 26px azure;
   outline: 1px rgb(255, 109, 109);
 }
 .midlight:hover {
