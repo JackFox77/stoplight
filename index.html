@@ -7,16 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
   </head>
-  <body>
+  <body class="">
+    <!-- SECTION light and sky -->
     <section class="d-flex flexColumn centered sky">
+      <div class=""></div>
+
       <div class="neck d-flex"></div>
       <div class="lightbody d-flex lightdir flexspread centered">
         <div class="toplight"></div>
         <div class="midlight"></div>
         <div class="botlight"></div>
       </div>
+      <div class="sun"></div>
     </section>
+
+    <!-- SECTION Ground and Road -->
     <section class="ground d-flex centerRoad">
       <div class="road"></div>
     </section>
